@@ -1,0 +1,63 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - LQGBaseAppDelegate (1.0.0)
+  - LQGBaseView/BaseController (1.0.0):
+    - FDFullscreenPopGesture
+    - LQGBaseView/Protocol
+    - LQGCategory
+    - LQGMacro
+    - WebViewJavascriptBridge (~> 6.0.3)
+  - LQGBaseView/Protocol (1.0.0)
+  - LQGCategory (1.0.0)
+  - LQGGuide (1.0.0):
+    - LQGBaseView/BaseController
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+  - LQGMacro (1.0.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.6.0)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - LQGBaseAppDelegate
+  - LQGGuide (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FDFullscreenPopGesture
+    - LQGBaseAppDelegate
+    - LQGBaseView
+    - LQGCategory
+    - LQGMacro
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  LQGGuide:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  LQGBaseAppDelegate: 19083344386ed54755bb63738b97d576e680dc51
+  LQGBaseView: 1bd9188e1671d7f0926a172df2a201f7749c8543
+  LQGCategory: d06e3e77818efa42e810aeebc493f3cb122522aa
+  LQGGuide: c69dff2c517d2ff026c1e359a43181dafa990730
+  LQGMacro: 83996fc0371fe853771123e3dc879908765bc44a
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 9edfc709a16db83cdec882cfdfb2be3a694165ce
+
+COCOAPODS: 1.11.2
